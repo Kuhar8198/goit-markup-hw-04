@@ -113,34 +113,15 @@ padding-bottom: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.icon-mail{
-    display:inline-flex;
-    align-items: center;
+.item-mail{
     margin-right: 50px;
 }
 
-/* .icon-mail::before{
+.mail-icon{
+    width: 16px;
     height: 12px;
-    width: 16px;
-    margin-right: 10px;
-    content: '';
-    background-image: url(../../goit-markup-hw-04/images/mail.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
-.icon-phone{
-    display: inline-flex;
-    align-items: center;
 }
-/* .icon-phone::before{
-    height: 10px;
-    width: 16px;
-    margin-right: 10px;
-    content: '';
-    background-image: url(../../goit-markup-hw-04/images/phone.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
+
 
 
 

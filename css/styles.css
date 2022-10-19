@@ -259,9 +259,10 @@ padding-bottom: 47px;
 
 .features{
 display: flex;
+gap: 30px;
 }
 
-.features .item::before{
+/* .features .item::before{
     content: '';
     height: 120px;
     display: block;
@@ -287,13 +288,28 @@ display: flex;
     background-image: url(../images/astronaut.svg);
 }
 
-.features .item{
-flex-basis: 270px;
-}
 
 
 .features .item + .item{
     margin-left: 30px;
+} */
+
+.features .item {
+    flex-basis: 270px;
+}
+
+.features-icon{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--secondary-back-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    
+    margin-bottom: 30px;
 }
 
 .features .title{
@@ -389,6 +405,17 @@ margin-top: 0;
 margin-bottom: 0;
 }
 
+.team-links-list{
+    display: flex;
+}
+.team-link{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
 .team{
     display: flex;
     flex-wrap: wrap;
@@ -401,9 +428,7 @@ margin-bottom: 0;
 
 }
 
-/* .item img{
-    margin-bottom: 30px;
-} */
+
 .item .title{
     margin-bottom: 10px;
 }

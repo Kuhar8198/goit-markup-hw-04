@@ -120,6 +120,13 @@ padding-bottom: 30px;
 .mail-icon{
     width: 16px;
     height: 12px;
+    margin-right: 10px;
+}
+.mail:hover {
+    fill: var(--accent-text-color);
+}
+.phone-icon{
+    margin-right: 10px;
 }
 
 
@@ -138,9 +145,14 @@ padding-bottom: 30px;
 }
 
 .header-contact .mail:hover,
-.header-contact .mail:focus {
+.header-contact .mail:focus{
+    color: var(--accent-text-color);
+
+}
+.icon-mail:hover .mail-icon{
     color: var(--accent-text-color);
 }
+
 .header-contact{
     display: flex;
     margin-left: auto;
@@ -148,6 +160,14 @@ padding-bottom: 30px;
 .header-contact .item + .item{
     margin-left: 50px;
 }
+
+.mail-icon:hover{
+background-color: #2196F3;
+}
+.mail-icon{
+    color: red;
+}
+
 
 
 
@@ -402,18 +422,25 @@ letter-spacing: 0.03em;
 text-align: center;
 color: var(--primary-text-color);
 margin-top: 0;
-margin-bottom: 0;
+margin-bottom: 16px;
 }
 
 .team-links-list{
     display: flex;
+    gap: 10px;
+    justify-content: center;
 }
+
 .team-link{
     display: flex;
     width: 44px;
     height: 44px;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+}
+.team-link:hover{
+    background-color: var(--accent-text-color);
 }
 
 .team{

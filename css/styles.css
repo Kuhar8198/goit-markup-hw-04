@@ -102,6 +102,7 @@ padding-bottom: 30px;
     color: var(--accent-text-color);
 }
 
+/* Mail */
 .header-contact .mail {
     color: var(--primary-text-color);
     text-decoration: none;
@@ -118,8 +119,6 @@ padding-bottom: 30px;
 }
 
 .mail-icon{
-    width: 16px;
-    height: 12px;
     margin-right: 10px;
     fill: currentColor;
 }
@@ -128,24 +127,8 @@ padding-bottom: 30px;
 .mail:hover {
     fill: var(--accent-text-color);
 }
-.phone-icon{
-    margin-right: 10px;
-}
 
 
-
-
-.header-contact .tel {
-    color: var(--primary-text-color);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    display: block;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
 .header-contact .mail:hover,
 .header-contact .mail:focus{
@@ -163,16 +146,32 @@ padding-bottom: 30px;
     margin-left: 50px;
 }
 
+/* Phone */
 
+.phone-icon{
+    margin-right: 10px;
+    fill: currentColor;
+}
 
-
-
+.header-contact .tel {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .header-contact .tel:hover,
 .header-contact .tel:focus {
     color: var(--accent-text-color);
 }
-
+.tel:hover{
+    fill: var(--accent-text-color);
+}
 
 
 /* Logo */

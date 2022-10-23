@@ -15,6 +15,7 @@
     --phone-mail-color: rgba(255, 255, 255, 0.6);
     --coloreeeeee: #EEEEEE;
     --border: #ECECEC;
+    --border-clients: #AFB1B8;
 }
 
 body {
@@ -459,6 +460,34 @@ margin-bottom: 16px;
     margin-left: 30px;
 }
 
+/* Clients */
+
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-list{
+    display: flex;
+    gap: 30px;
+}
+
+.client-link{
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--border-clients);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    fill: var(--border-clients);
+}
+
+.client-link:hover{
+    fill: var(--accent-text-color);
+    border: 1px solid var(--accent-text-color);
+}
+
 /* Footer */
 .footer-main{
     background-color: var(--background-color);
@@ -482,6 +511,7 @@ text-decoration: none;
 }
 .footer-address{
     margin-top: 20px;
+    display: flex;
 }
 .footer-contact .item:nth-child(3n){
     margin-bottom: 0;
@@ -520,6 +550,23 @@ color: var(--phone-mail-color);
 .footer-contact .link:focus{
     color: var(--accent-text-color);
 }
+
+/* Посилання в футері */
+
+.footer-social{
+    margin-left: 70px;
+}
+
+
+.footer-title{
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+.footer-list{
+    display: flex;
+}
+
+
 
 /* Portfolio */
 

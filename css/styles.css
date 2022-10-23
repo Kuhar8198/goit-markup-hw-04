@@ -561,9 +561,23 @@ color: var(--phone-mail-color);
 .footer-title{
     text-transform: uppercase;
     color: var(--primary-white-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
 }
 .footer-list{
     display: flex;
+    gap: 10px;
+}
+
+.footer-item{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

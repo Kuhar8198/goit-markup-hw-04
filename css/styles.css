@@ -121,7 +121,10 @@ padding-bottom: 30px;
     width: 16px;
     height: 12px;
     margin-right: 10px;
+    fill: currentColor;
 }
+
+
 .mail:hover {
     fill: var(--accent-text-color);
 }
@@ -147,11 +150,10 @@ padding-bottom: 30px;
 .header-contact .mail:hover,
 .header-contact .mail:focus{
     color: var(--accent-text-color);
+    fill: var(--accent-text-color);
 
 }
-.icon-mail:hover .mail-icon{
-    color: var(--accent-text-color);
-}
+
 
 .header-contact{
     display: flex;
@@ -161,12 +163,6 @@ padding-bottom: 30px;
     margin-left: 50px;
 }
 
-.mail-icon:hover{
-background-color: #2196F3;
-}
-.mail-icon{
-    color: red;
-}
 
 
 

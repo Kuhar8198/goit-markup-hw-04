@@ -601,6 +601,10 @@ color: var(--phone-mail-color);
     align-items: center;
 }
 
+.footer-position{
+    display: flex;
+    align-items: baseline;
+}
 
 
 

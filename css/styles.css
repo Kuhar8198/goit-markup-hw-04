@@ -686,7 +686,6 @@ margin-top: 4px;
     margin-bottom: 30px;
 
     flex-basis: calc((100% - 2 * 30px) / 3);
-    border: 1px solid var(--coloreeeeee);
 }
 
 .flex-item:nth-child(3n){
